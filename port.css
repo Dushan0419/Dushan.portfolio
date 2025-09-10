@@ -1,0 +1,242 @@
+.header{
+    height: 755px;
+    
+}
+
+.name{
+    font-family: roboto,arial;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+.menu-icon {
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  width: 20px;  /* resize if needed */
+  cursor: pointer;
+}
+
+
+
+.container {
+  position: relative;
+}
+.menu{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+
+
+.profile-pic{
+  width: 430px; 
+  height: 750px;/* Decrease size */
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  
+    
+}
+
+
+.web-developer {
+    color: white;
+    margin-top: 200px;
+    font-family: roboto , arial;
+
+}
+
+.about-header {
+    margin-top: 50px;
+    color: white;
+    font-family: roboto , arial;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+.contact-and-request{
+    margin-top: 60px;
+    margin-left: -20px;
+    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.contact-constraint {
+    padding: 15px 38px 15px 38px;
+    font-size: 14px;
+    background-color:transparent;
+    border-color: rgb(48, 225, 125);
+    color: white;
+    transition: transform 0.3s ease; 
+    cursor: pointer;  
+    
+}
+.contact-constraint:hover,
+.request-resume:hover {
+    transform: translateY(-8px);
+}
+.request-resume {
+    color: rgb(48, 210, 83);
+    padding: 15px 35px 15px 35px;
+    font-size: 14px;
+    background-color:transparent;
+    border:none;
+    color: rgb(48, 223, 141);
+    transition: transform 0.3s ease;
+    cursor: pointer; 
+}
+.header-2 {
+    height: 210px;
+    background-color: rgb(45, 44, 44);
+    color: white;
+    margin-right: -7px ;
+    margin-left: -5px;
+}
+
+.header-6-info {
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  color:rgb(21, 196, 106) ;
+  padding-left: 550px;
+}
+.button-wrapper {
+  text-align: center;
+  margin: 50px 0 ;
+}
+
+.request-button {
+  margin-left: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 16px;
+  font-weight: 50;
+  color: white;
+  background: linear-gradient(90deg, #ff3563, #2b0013); /* Bright pink to deep dark */
+  border: none; /* No borders */
+  border-radius: 3px;
+  text-decoration: none;
+  box-shadow: 0 0 30px rgba(255, 53, 99, 0.3); /* Soft centered glow */
+  transition: all 0.3s ease;
+}
+
+.request-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 40px rgba(8, 8, 8, 0.5);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #111; /* dark theme */
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-section {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding-left: 170px;
+  padding-top: 100px;
+}
+
+.contact-label {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 160px;
+  font-weight: 900;
+  color: #5e5d5d;
+  opacity: 0.15;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1;
+}
+
+.contact-content {
+  max-width: 800px;
+  padding-left: 40px;
+}
+
+.get-in-touch {
+  color: hotpink;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.contact-content h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #d3cbcb;
+  margin-bottom: 10px;
+}
+
+/* Input Fields */
+form {
+  margin-top: 40px;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #555;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+.send-button {
+  background: rgb(49, 48, 48);
+  color: rgb(163, 159, 159);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 370px;
+  margin-left: 210px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: -8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.send-button:hover {
+  background: white;
+  color: black;
+}
+
